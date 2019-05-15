@@ -1,0 +1,7 @@
+tensorflow==1.12.2
+keras
+numpy
+matplotlib
+pandas
+jupyter
+pygame
