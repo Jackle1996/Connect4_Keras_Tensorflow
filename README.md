@@ -4,7 +4,7 @@ Training a simple 4-Connect bot with keras and tensorflow.
 
 ## Install
 
-Python: 3.6.8
+Python: 3.6.8 (64-Bit)
 
 Python Packages: [packages.txt](packages.txt)
 
