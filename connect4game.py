@@ -3,7 +3,6 @@ import numpy as np
 import pygame
 import sys
 import math
-
 import keras
 
 BLUE = (0,0,255)
@@ -93,7 +92,7 @@ def determine_move_deeplearningbot(board, model): # bot move
 				inputfeatures[inputfeatures == 2] = -1
 				inputfeatures = np.flip(inputfeatures, 0) # board is reversed!
 				inputfeatures = inputfeatures.reshape(1,42) # flatten to correct input vector
-				predictions = model.predict(inputfeatures);
+				predictions = model.predict(inputfeatures)
 				#print("prediction for column ",column, "is ", predictions)
 				predictedChances[column] = predictions[0, 2]
 	

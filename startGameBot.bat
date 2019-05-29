@@ -1,1 +1,1 @@
-"connect4game.py" 1
+python "connect4game.py" 1
